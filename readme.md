@@ -1,6 +1,8 @@
 # Taller Vue + Firebase: 
-> ✏️ Construyendo la app de recursOSW en vivo con Jorge Baumann [(@baumannzone)](https://github.com/baumannzone)  
+> Construyendo ✏️ la app de recursOSW en vivo con Jorge Baumann [(@baumannzone)](https://github.com/baumannzone)  
 > y Robin Giles [(@robinparadise)](https://github.com/robinparadise) 🦄 
+
+![main](./assets/main.png)
 
 ## Contenidos:
 - Vue & Vuex 💚
@@ -12,8 +14,10 @@
 - Procesamiento de imágenes (Cloud Functions + Storage) 🌐
 - Buscador con Algolia / Elasticsearch 🔍
 - Open Graph (metadatos) 🔣
+- Hosting & Deploy con Netlify ⛓
 - Testing (Unit testing, E2E testing) ✅
 
+![main](./assets/VueFirebase.png)
 
 ## Requisitos
 - Git
