@@ -1,5 +1,6 @@
 # Taller Vue + Firebase: 
-> ✏️ Construyendo la app de recursOSW en vivo con Jorge Baumann [(@baumannzone)](https://github.com/baumannzone) y Robin Giles [(@robinparadise)](https://github.com/robinparadise) 🦄 
+> ✏️ Construyendo la app de recursOSW en vivo con Jorge Baumann [(@baumannzone)](https://github.com/baumannzone)  
+> y Robin Giles [(@robinparadise)](https://github.com/robinparadise) 🦄 
 
 ## Contenidos:
 - Vue & Vuex 💚
