@@ -1,25 +1,68 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
-</template>
-<style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
+  <v-app>
+    <v-navigation-drawer v-model="drawer" fixed app disable-resize-watcher>
+      <v-list dense>
+        <v-list-tile v-for="(item, idx) in menuItems" :key="idx" :to="item.path">
+          <v-list-tile-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>{{ item.displayName }}</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+      </v-list>
+    </v-navigation-drawer>
 
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
-</style>
+    <v-toolbar app temporary fixed class="elevation-0">
+      <v-toolbar-side-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"/>
+      <v-toolbar-title class="headline text-uppercase cursor" @click="goHome">
+        <span>Recurs<span class="font-weight-light">OSW</span></span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <AlgoliaSearch></AlgoliaSearch>
+        <template v-for="(item, idx) in menuItems">
+          <v-btn flat
+            v-if="show(item)"
+            :to="item.path"
+            :key="idx">{{ item.displayName }}</v-btn>
+        </template>
+      </v-toolbar-items>
+    </v-toolbar>
+
+    <v-content>
+      <HelloWorld/>
+    </v-content>
+  </v-app>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  },
+  data () {
+    return {
+      search: '',
+      drawer: false,
+      menuItems: [
+        // { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true }
+      ]
+    }
+  },
+  methods: {
+    goHome () {
+      this.$router.push('/')
+    },
+    show (item) {
+      return true
+    },
+    onSearch () {
+      return true
+    }
+  }
+}
+</script>
