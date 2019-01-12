@@ -20,7 +20,7 @@ cd recursosw-workshop
 git checkout step0_vue
 ```
 
-- Instalamos Vue CLI:
+- Instalamos Vue CLI (global):
 ```
 npm install -g @vue/cli
 # OR
@@ -31,11 +31,8 @@ yarn global add @vue/cli
 ```
 vue create recursosw
 ```
-> el 'punto' indica que vamos a crear el proyecto en la carpeta actual
 
-- Pasos instalación
-
-> ? Generate project in current directory? (Y/n) 
+- Pasos instalación 
   
   
 > ? Please pick a preset: 
@@ -80,7 +77,36 @@ vue create recursosw
 
 ? Pick a E2E testing solution: 
 ❯ Cypress (Chrome only) 
-  Nightwatch (Selenium-based) 
+  Nightwatch (Selenium-based)
+  
+
+
+Si la instalación ha sido correcta, veremos un mensaje como este:
+
+🎉  Successfully created project recursosw.
+👉  Get started with the following commands:
+
+#### Ejecutando la app
+Para ejecutar la app hacemos lo siguiente:
+
+```bash
+  $ cd recursosw
+  
+  $ npm run serve
+  # OR 
+  $ yarn serve 
+```
+
+Veremos una pantalla como esta:
+img final
+  
+  
+  
+===
+
+:trollface:
+  
+   
 
 
 
