@@ -20,7 +20,6 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <AlgoliaSearch></AlgoliaSearch>
         <template v-for="(item, idx) in menuItems">
           <v-btn flat
             v-if="show(item)"
@@ -31,25 +30,20 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <router-view/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  },
   data () {
     return {
       search: '',
       drawer: false,
       menuItems: [
-        // { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true }
+        { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true }
       ]
     }
   },
