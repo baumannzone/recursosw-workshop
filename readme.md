@@ -7,7 +7,7 @@
 --- 
 
 ## Contenidos:
-- Vue & Vuex 💚
+- Vue & Vuex 🖖💚
 - Firebase: 
     - Storage 🌉
     - Firestore 📚
