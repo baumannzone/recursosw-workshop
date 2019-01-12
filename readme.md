@@ -1,16 +1,10 @@
-## #0 Vue CLI
+## #0 Vue CLI 🛠️ 
 
-🛠️ Standard Tooling for Vue.js Development
+Standard Tooling for Vue.js Development
 
 https://cli.vuejs.org/
 
-```
-npm install -g @vue/cli
-# OR
-yarn global add @vue/cli
-```
-
-### Empezamos
+## Empezamos
 - Clonamos el repositorio y entramos en el proyecto:  
 ```
 git clone git@github.com:baumannzone/recursosw-workshop.git
@@ -34,7 +28,7 @@ yarn global add @vue/cli
 vue create recursosw
 ```
 
-### Asistente de instalación 
+## Asistente de instalación 
   
 
 ```
@@ -95,7 +89,8 @@ vue create recursosw
 ```
 ---
 
-IMG 2
+![gameboy](./assets/img/1.png)
+
 
 ---
 
@@ -115,9 +110,11 @@ Para ejecutar la app hacemos lo siguiente:
   # OR 
   $ yarn serve 
 ```
+![gameboy](./assets/img/2.png)
 
-Hello World!
-IMG 3
+
+#### Hello World!
+![gameboy](./assets/img/3.png)
   
   
 ===
