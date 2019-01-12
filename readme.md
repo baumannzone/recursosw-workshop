@@ -1,8 +1,7 @@
-## #0 Vue CLI 🛠️ 
+# #0 Vue CLI 
 
-Standard Tooling for Vue.js Development
+ 🛠️ Standard Tooling for Vue.js Development (https://cli.vuejs.org/)
 
-https://cli.vuejs.org/
 
 ## Empezamos
 - Clonamos el repositorio y entramos en el proyecto:  
@@ -100,7 +99,7 @@ vue create recursosw
 👉  Get started with the following commands
 ```
 
-#### Ejecutando la app
+## Ejecutando la app
 Para ejecutar la app hacemos lo siguiente:
 
 ```bash
@@ -110,14 +109,17 @@ Para ejecutar la app hacemos lo siguiente:
   # OR 
   $ yarn serve 
 ```
-![gameboy](./assets/img/2.png)
 
+--- 
 
-#### Hello World!
-![gameboy](./assets/img/3.png)
+## Hello World!
+Vista previa de la app  
+![img-3](./assets/img/3.png)
   
   
-===
+---
+
+## Conclusiones
 
 :trollface:
   
