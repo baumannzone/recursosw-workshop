@@ -8,6 +8,9 @@
 
 --- 
 
+⚠⚠[[Crear Indice]]⚠⚠
+
+
 ## Contenidos:
 - Vue & Vuex 🖖💚
 - Firebase: 
@@ -38,7 +41,7 @@
 - Vue Dev Tools: Extensión del navegador ([Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=es) / [Firefox](https://addons.mozilla.org/es/firefox/addon/vue-js-devtools/)) 
 
 ---
-## Índice 
+## Ramas 
 |#          |Ramas  |
 |-----------|    ---|
 | Vue       | `step0_vue`   |
