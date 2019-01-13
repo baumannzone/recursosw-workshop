@@ -13,7 +13,7 @@
               </v-alert>
             </v-flex>
             <v-flex class="text-xs-center" mt-5>
-              <GithubBtn @onGhSignIn="ghSignIn"/>
+              <GithubBtn @onGhSignIn="ghSignIn"></GithubBtn>
             </v-flex>
           </v-layout>
         </form>
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { GithubBtn } from '../components/GithubBtn'
+import GithubBtn from '@/components/GithubBtn.vue'
 export default {
   components: { GithubBtn },
   data () {
