@@ -15,6 +15,7 @@
 
     <v-toolbar app temporary fixed class="elevation-0">
       <v-toolbar-side-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"/>
+      <!--TODO: (Bola Extra) Cambiar el cursor a `Pointer` cuando esté encima del Titulo -->
       <v-toolbar-title class="headline text-uppercase cursor" @click="goHome">
         <span>Recurs<span class="font-weight-light">OSW</span></span>
       </v-toolbar-title>
