@@ -8743,6 +8743,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-cli-plugin-vuetify@^0.4.6:
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-0.4.6.tgz#91c4534d17bc04bbd6f41eacdb6ff49be0f59f2b"
+
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -8819,6 +8823,16 @@ vue-template-es2015-compiler@^1.6.0:
 vue@^2.5.21:
   version "2.5.22"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.22.tgz#3bf88041af08b8539c37b268b70ca79245e9cc30"
+
+vuetify-loader@^1.0.5:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vuetify-loader/-/vuetify-loader-1.1.1.tgz#3e3a553c9be038d642092cd87715b5bc10602c6d"
+  dependencies:
+    loader-utils "^1.1.0"
+
+vuetify@^1.3.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.4.1.tgz#9dc99d59f93cd7f685864f10048c6606b8d38145"
 
 vuex@^3.0.1:
   version "3.0.1"
