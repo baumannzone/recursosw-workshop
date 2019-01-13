@@ -4,22 +4,22 @@
 
 ![main](./assets/main.png)
 
-Demo: 👉 https://recursosw.netlify.com/#/ 👈
+**Demo**: 👉 https://recursosw.netlify.com/#/ 👈
 
 --- 
 
 ## Contenidos:
 - Vue & Vuex 🖖💚
 - Firebase: 
-    - Storage 🌉
+    - Storage 📷
     - Firestore 📚
     - Authentication 🔒
     - Cloud Functions ⛅️
 - Procesamiento de imágenes (Cloud Functions + Storage) 🌐
-- Buscador con Algolia / Elasticsearch 🔍
 - Open Graph (metadatos) 🔣
 - Hosting & Deploy con Netlify ⛓
 - Testing (Unit testing, E2E testing) ✅
+- Buscador con Algolia / Elasticsearch 🔍
 
 ![main](./assets/VueFirebase.png)
 
