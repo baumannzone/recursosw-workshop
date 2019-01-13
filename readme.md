@@ -26,6 +26,9 @@
 </template>
 ```
 
+![footer](./assets/img/view-create.png)
+
+
 ## Terminamos
 Cuando terminemos, podemos pasar a la rama `step2.1_router`. 
 
