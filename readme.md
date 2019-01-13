@@ -14,7 +14,7 @@
     - Storage 📷
     - Firestore 📚
     - Authentication 🔒
-    - Cloud Functions ⛅️
+    - Cloud Functions ⛅️ (+ Typescript 😎)
 - Procesamiento de imágenes (Cloud Functions + Storage) 🌐
 - Open Graph (metadatos) 🔣
 - Hosting & Deploy con Netlify ⛓
