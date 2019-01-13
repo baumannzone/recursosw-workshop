@@ -36,7 +36,9 @@ vue create recursosw
  ❯ Manually select features  
 ```  
   
-```  
+```
+(Marcamos las opciones con el espacio)
+
 ? Check the features needed for your project:  
   ◉ Babel  
   ◯ TypeScript  
@@ -70,6 +72,8 @@ vue create recursosw
 ```
 
 ```
+(Marcamos las opciones con el espacio)
+
 ? Pick additional lint features: 
  ◉ Lint on save
  ◉ Lint and fix on commit
@@ -88,7 +92,7 @@ vue create recursosw
 ```
 ---
 
-![gameboy](./assets/img/1.png)
+![Opciones](./assets/img/1.png)
 
 
 ---
@@ -114,7 +118,7 @@ Para ejecutar la app hacemos lo siguiente:
 
 ## Hello World!
 Vista previa de la app  
-![img-3](./assets/img/3.png)
+![hello-world-from-vue](./assets/img/3.png)
   
   
 ---
