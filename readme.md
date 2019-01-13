@@ -25,10 +25,10 @@
   </div>
 </template>
 ```
+![view-create](./assets/img/view-create.png)
 
-   
 - Cuando terminemos, pasamos a la rama `step2.1_router`.
-  
+
 --- 
 ![footer](./assets/img/footer.png)
 
