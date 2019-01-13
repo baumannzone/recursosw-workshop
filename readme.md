@@ -4,7 +4,7 @@
 
 ## Empezamos
 #### #1
-- ir a ![https://firebase.google.com/](https://firebase.google.com/) y entrar en la consola.
+- Ir a https://firebase.google.com/ y entrar en la consola.
 
 ![firebase_console](./assets/img/firebase_console.png)
 
@@ -20,9 +20,7 @@
 
 - En ella vamos a la pestaña de Sign-in method y elegimos Github
 
-- A continuación vamos la página de configuración de github
-  
-![Developer settings](https://github.com/settings/developers)
+- A continuación vamos la página de configuración de github https://github.com/settings/developers
 
 - Click en el botón 'New OAuth App' y rellenar los datos, similar a la imagen...
 
