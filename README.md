@@ -26,7 +26,7 @@
 </template>
 ```
 
-![footer](./assets/img/view-create.png)
+![view-create](./assets/img/view-create.png)
 
 
 ## Terminamos
