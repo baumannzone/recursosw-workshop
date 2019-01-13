@@ -12,15 +12,16 @@
 ``` 
 
 ###### Tareas:
+- Crear las vistas en `/views`
 - Agregar las rutas en `router.js`
 - Agregar los links al navbar/sidebar en `App.vue`
-- Crear las vistas en `/views`
 
 > El `template` de las vistas tiene que ser algo sencillo como esto:
+
 ```
 <template>
   <div>
-    <h1>Hola desde PÁGINA_XX</h1>
+    <h1>Hola desde NOMBRE_PAG</h1>
   </div>
 </template>
 ```

@@ -1,7 +1,9 @@
 <template>
   <v-app>
+    <!--SideBar-->
     <v-navigation-drawer v-model="drawer" fixed app disable-resize-watcher>
       <v-list dense>
+        <!--Nav items-->
         <v-list-tile v-for="(item, idx) in menuItems" :key="idx" :to="item.path">
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -13,6 +15,7 @@
       </v-list>
     </v-navigation-drawer>
 
+    <!--Navigation Bar-->
     <v-toolbar app temporary fixed class="elevation-0">
       <v-toolbar-side-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"/>
       <v-toolbar-title class="headline text-uppercase cursor" @click="goHome">
@@ -20,7 +23,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <AlgoliaSearch></AlgoliaSearch>
+        <!--Nav items-->
         <template v-for="(item, idx) in menuItems">
           <v-btn flat
             v-if="show(item)"
@@ -31,25 +34,29 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <!-- component matched by the route will render here -->
+      <router-view/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  },
   data () {
     return {
       search: '',
       drawer: false,
+      // Array de objetos con los elementos del menu de navegación
       menuItems: [
-        // { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true }
+        /*
+          TODO: Crear los enlaces que se verán en el navigation bar y el side bar
+          Los objetos tienen las siguientes propiedades:
+          - DisplayName: Nombre a mostrar
+          - Icon: Nombre del icono (Los sacamos de `https://material.io/tools/icons/?style=baseline`)
+          - Path: Ruta de la vista que hemos definido en el `router.js`
+        */
       ]
     }
   },
