@@ -38,3 +38,7 @@ Vamos a utilizar los componentes que nos proporciona Vuetify.
 ![navigation-drawer](./assets/img/navigation-drawer.png)
   
 ![navigation-drawer-open](./assets/img/navigation-drawer-open.png)
+
+---
+
+![footer](./assets/img/footer.png)
