@@ -29,3 +29,7 @@
 ![github_developer](./assets/img/github_developer.png)
 
 copiamos el Client ID & Client Secret y lo ponemos en firebase.
+
+- Ahora en el directorio del proyecto, editar el archivo recursosw/src/config/firebase.js y añadir la configuración del proyecto recién creado.
+
+- Saltar a la siguiente rama si no se ha realizado los pasos anteriores
