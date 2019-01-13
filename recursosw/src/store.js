@@ -58,5 +58,10 @@ export default new Vuex.Store({
       commit('setUserData', null)
       router.push('/')
     }
+  },
+  getters: {
+    isAuthenticated (state) {
+      return !!state.user
+    }
   }
 })

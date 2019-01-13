@@ -43,7 +43,9 @@ export default {
       search: '',
       drawer: false,
       menuItems: [
-        { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true }
+        { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true },
+        { displayName: 'Login', icon: 'contact_mail', path: '/signin' },
+        { displayName: 'Logout', icon: 'contact_mail', path: '/signout', requireAuth: true }
       ]
     }
   },
@@ -52,6 +54,11 @@ export default {
       this.$router.push('/')
     },
     show (item) {
+      if (item.path === '/signin') {
+        return !this.$store.getters.isAuthenticated
+      } else if (item.requireAuth) {
+        return this.$store.getters.isAuthenticated
+      }
       return true
     },
     onSearch () {
