@@ -26,8 +26,9 @@
 </template>
 ```
 
-## Terminamos
-Cuando terminemos, podemos pasar a la rama `step2.1_router`. 
-
+   
+- Cuando terminemos, pasamos a la rama `step2.1_router`.
+  
+--- 
 ![footer](./assets/img/footer.png)
 
