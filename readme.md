@@ -42,8 +42,11 @@
 | :---: | :---: |
 
 ## Agradecimientos
-
+> OSW
 
 ## Licencia
 [License](./LICENSE)
 
+---
+
+![footer](./assets/footer.png)
