@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
-import { db, auth, ghProvider, storage } from './config'
+import { auth, ghProvider } from './config'
 
 Vue.use(Vuex)
 
@@ -41,7 +41,7 @@ export default new Vuex.Store({
             })
             commit('setLoading', false)
             commit('setError', null)
-            router.push({ name: 'Home' })
+            router.push({ name: 'home' })
           } else {
             throw new Error('Error credentials')
           }
@@ -56,7 +56,16 @@ export default new Vuex.Store({
       auth.signOut()
       commit('setUser', null)
       commit('setUserData', null)
-      router.push('/')
+      window.location = '/'
+    },
+    autoSignIn ({ commit }, payload) {
+      if (payload && payload.email) {
+        commit('setUser', {
+          id: payload.uid,
+          uid: payload.uid,
+          email: payload.email
+        })
+      }
     }
   },
   getters: {
