@@ -18,7 +18,7 @@ http://ogp.me/
   - Despligue automatico 
   - Vista previa de los cambios antes de hacer el merge a _PRO_ 🔝
   - URL personalizada 
-  - Fácil de configurar
+  - Fácil de configurar (la rama, comando para hacer el _build_, etc)
   
 ###### Vamos a crear un proyecto y a verlo en acción:
 - Lo primero es crearse una cuenta y acceder a la plataforma.
