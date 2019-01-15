@@ -38,7 +38,7 @@ de vuelta a Firebase, lo pegamos en los campos correspondientes
 - De vuelta al proyecto, editamos el archivo `/src/config/firebase.js` 
 y añadimos la configuración del proyecto que acabamos de crear 😉.
 
-#### 👏 😊 🎊 
+## 👏 😊 🎊 
 Congrats! Ya lo has configurado. ¡Es momento de ponerse manos a la obra! 💪 
 
 
