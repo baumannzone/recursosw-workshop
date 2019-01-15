@@ -1,33 +1,47 @@
 # #3 Firebase Authentication
+> Firebase utiliza la infraestructura de Google y se escala automáticamente con tu aplicación  
 
 ![firebase](./assets/img/firebase.png)
 
 ## Empezamos
 #### #1
-- Ir a https://firebase.google.com/ y entrar en la consola.
+Lo primero que tenemos que hacer es crear un proyecto desde la consola de firebase.
+Necesitamos tener una cuenta de firebase (google) para ello. 
+- Ir a https://firebase.google.com/ y entrar en la consola:
 
 ![firebase_console](./assets/img/firebase_console.png)
 
-- Creamos un nuevo proyecto, p.ej RecursosW
+- Creamos un nuevo proyecto, por ejemplo `RecursosW`:
 
 ![firebase_name](./assets/img/firebase_name.png)
 
-- ✅ Si todo ha ido bien, veremos la siguiente pantalla...
+- Si todo ha ido bien, veremos la siguiente pantalla:
 
 ![firebase_done](./assets/img/firebase_done.png)
 
-- Dentro de la consola de firebase, vamos a la pestaña de 'authentication'.
+- Dentro de la consola de firebase, vamos a la pestaña de **Authentication**.
 
-- En ella vamos a la pestaña de Sign-in method y elegimos Github
+- En ella vamos a la pestaña de **Método de acceso** y habilitamos **Github**
 
-- A continuación vamos la página de configuración de github https://github.com/settings/developers
+- El siguiente paso es crear una _OAuth App_ desde el panel de configuración 
+de Github: https://github.com/settings/developers
 
 - Click en el botón 'New OAuth App' y rellenar los datos, similar a la imagen...
 
 ![github_developer](./assets/img/github_developer.png)
 
-copiamos el Client ID & Client Secret y lo ponemos en firebase.
+- Copiamos el *Client ID* y *Client Secret* y, 
+de vuelta a Firebase, lo pegamos en los campos correspondientes
 
-- Ahora en el directorio del proyecto, editar el archivo recursosw/src/config/firebase.js y añadir la configuración del proyecto recién creado.
+![fb_sign_in](./assets/img/firebase_sign_in.png)
 
-- Saltar a la siguiente rama si no se ha realizado los pasos anteriores
+- De vuelta al proyecto, editamos el archivo `/src/config/firebase.js` 
+y añadimos la configuración del proyecto que acabamos de crear 😉.
+
+#### 👏 😊 🎊 
+Congrats! Ya lo has configurado. ¡Es momento de ponerse manos a la obra! 💪 
+
+
+---
+
+![footer](./assets/img/footer.png)
