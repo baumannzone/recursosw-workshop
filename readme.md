@@ -29,9 +29,10 @@ http://ogp.me/
 ![netlify-config](./assets/img/netli-config.png)
 
 #### ¡Fantástico!
-Ya lo tienes. 👏  
-Ahora puedes ver el log de despliegues de tu sitio y su correspondiente _commit_ 
-y el estado de dicho despligue (Published ☑ - Failed 🤬) o revisar la configuración y personalizar la url. 
+Ya lo tienes. 👏 Espera unos instantes y tu sitio será publicado. Por defecto en una url random.    
+Ahora puedes ver el log de despliegues de tu sitio y su correspondiente _commit_ y el estado de dicho despligue (_Published_ ☑ - _Failed_ 🤬) o revisar la configuración y personalizar la URL.   
+
+Es genial, ¿Verdad? 🥰
 
 ---
 
