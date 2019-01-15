@@ -9,7 +9,7 @@ const routerOptions = [
   { path: '/resources/:id', name: 'Resource', component: 'Resource' },
   { path: '/about', name: 'About', component: 'About' },
   { path: '/signin', name: 'Signin', component: 'Signin' },
-  { path: '/signout', name: 'signout', component: 'signout' }
+  { path: '/signout', name: 'Signout', component: 'Signout' }
 ]
 
 const routes = routerOptions.map(route => {
