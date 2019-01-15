@@ -12,3 +12,9 @@ http://ogp.me/
 
 ---
 
+### Netlify:
+- All-in-one platform for automating modern web projects. 😍
+- Es como [github-pages](https://pages.github.com/), pero vitaminado 💊
+  - Despligue automatico
+  - Vista previa
+  - ...
