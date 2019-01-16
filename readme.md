@@ -44,7 +44,10 @@ Al integrar las etiquetas de Open Graph en tu sitio web puedes personalizar los 
 Es más fácil si ves este ejemplo: 👇
 ![og-gif](./assets/img/opengraph.gif) 
 
-Si no tienes estos parámetros configurados se cogerán algunos valores por defecto si es posible. (Hay veces que solo se muestra el link) 
+Si no tienes estos parámetros configurados se cogerán algunos valores por defecto si es posible.
+
+### Tareas
+- Agregar los meta tags necesarios para que nuestra web se vea tal y como queremos cuando compartimos nuestro enlace.
 
 ---
 ![footer](./assets/img/footer.png)
