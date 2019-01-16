@@ -29,9 +29,9 @@
 ---
 
 ## Requisitos
-- Git
+- Git :octocat:
 - Node v.10 (LTS) + NPM
-- Conocimientos básicos de HTML, CSS y Javascript
+- Conocimientos básicos de HTML, CSS y Javascript 
 - Cuenta de Github
 - Cuenta de Firebase (Google)
 
