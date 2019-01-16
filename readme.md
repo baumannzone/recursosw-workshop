@@ -31,6 +31,7 @@
 ## Requisitos
 - Git
 - Node v.10 (LTS) + NPM
+- Conocimientos básicos de HTML, CSS y Javascript
 - Cuenta de Github
 - Cuenta de Firebase (Google)
 
