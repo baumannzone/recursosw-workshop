@@ -18,6 +18,7 @@ http://ogp.me/
   - Despligue automatico 
   - Vista previa de los cambios antes de hacer el merge a _PRO_ 🔝
   - URL personalizada 
+  - Fácil de configurar (la rama, comando para hacer el _build_, etc)
   
 ###### Vamos a crear un proyecto y a verlo en acción:
 - Lo primero es crearse una cuenta y acceder a la plataforma.
@@ -29,9 +30,10 @@ http://ogp.me/
 ![netlify-config](./assets/img/netli-config.png)
 
 #### ¡Fantástico!
-Ya lo tienes. 👏  
-Ahora puedes ver el log de despliegues de tu sitio y su correspondiente _commit_ 
-y el estado de dicho despligue (Published ☑ - Failed 🤬) o revisar la configuración y personalizar la url. 
+Ya lo tienes. 👏 Espera unos instantes y tu sitio será publicado. Por defecto en una url random.    
+Ahora puedes ver el log de despliegues de tu sitio y su correspondiente _commit_ y el estado de dicho despligue (_Published_ ☑ - _Failed_ 🤬) o revisar la configuración y personalizar la URL.   
+
+Es genial, ¿Verdad? 🥰
 
 ---
 
