@@ -36,11 +36,13 @@ y el estado de dicho despligue (Published ☑ - Failed 🤬) o revisar la config
 ---
 
 ### Open Graph:
-Seguro que alguna vez te has preguntado xxx
+Open Graph es una tecnología que introdujo Facebook (año 2010).  
+Al integrar las etiquetas de Open Graph en tu sitio web puedes personalizar los elementos que se ven cuando compartes tu sitio web
 
-Con open graph puedes configurar estos parámetros y decirle que datos quieres mostar. 
-Por defecto intentará coger algunos. xxx
+Es más fácil si ves este ejemplo: 👇
+![og-gif](./assets/img/opengraph.gif) 
 
+Si no tienes estos parámetros configurados se cogerán algunos valores por defecto si es posible. (Hay veces que solo se muestra el link) 
 
 ---
 ![footer](./assets/img/footer.png)
