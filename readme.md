@@ -56,4 +56,10 @@ Si no tienes estos parámetros configurados se cogerán algunos valores por defe
 ¿Ya lo tienes? Puedes ir a la rama `step4.1_netlify` para ver el resultado.
 
 ---
+
+Acabamos de añadir los metadatos y al compartir en Slack el enlace ya se puede ver el resultado:  
+![og-preview](./assets/img/og-preview.png)
+
+
+---
 ![footer](./assets/img/footer.png)
