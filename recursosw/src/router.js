@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import store from './store'
+import Meta from 'vue-meta'
 
 Vue.use(Router)
+Vue.use(Meta)
 
 const routerOptions = [
   { path: '/', name: 'home', component: 'Home' },
