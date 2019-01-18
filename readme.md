@@ -5,17 +5,31 @@ Testing software. Seguro que conoces varias razones para hacerlo. Estas dos son 
 > - _(Por lo tanto)_ Desarrollamos más rapido
 
 ## Cypress.io: 
-JavaScript End to End Testing Framework
+JavaScript End to End (E2E) Testing Framework
 ![cypress](./assets/img/cypress.png)
 
 
 ## Jest: 
-JavaScript End to End Testing Framework
+🃏 Delightful JavaScript Testing
 ![jest](./assets/img/jest.png)
 
 ---
 
-[x] asd asd
+Al instalar el proyecto, unas de las opciones que elegimos fue la de testing (Unit y E2E):
+```
+? Check the features needed for your project:  
+  ◉ Babel  
+  ◯ TypeScript  
+  ◯ Progressive Web App (PWA) Support  
+  ◉ Router  
+  ◉ Vuex  
+  ◉ CSS Pre-processors  
+  ◉ Linter / Formatter  
+  ◉ Unit Testing  
+  ◉ E2E Testing  
+```
+
+Vamos a ver con unos ejemplos básicos que fácil es testear nuestra app ☑
 
 ---
 
