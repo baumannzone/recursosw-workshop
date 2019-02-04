@@ -1,5 +1,5 @@
 <template>
-  <v-btn p-2 color="" @click="$emit('onGhSignIn')">
+  <v-btn p-2 color="" @click="$emit('onGhSignIn')" class="login-btn">
     <svg height="32"
       class="octicon octicon-mark-github"
       viewBox="0 0 16 16"
