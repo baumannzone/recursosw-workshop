@@ -12,7 +12,6 @@
 
 <script>
 import ResourceCard from './ResourceCard'
-import { mapGetters } from 'vuex'
 import { db } from '../config'
 const PAGE = 10
 export default {

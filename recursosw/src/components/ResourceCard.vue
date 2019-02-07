@@ -27,9 +27,6 @@
   </v-card>
 </template>
 <script>
-import { mapGetters } from 'vuex'
-import { db } from '../main'
-
 export default {
   name: 'ResourceCard',
   props: {
