@@ -2,24 +2,21 @@
   <v-container>
     <v-layout row wrap>
       <v-flex xs12>
-        <v-list two-line>
-          <template v-for="resource in resources">
-            <h1>{{resource.name}}</h1>
-            <p>{{resource.shortDesc}}</p>
-            <v-chip label v-for="tag in resource.tags">{{tag}}</v-chip>
-            <hr/>
-          </template>
-        </v-list>
+        <template v-for="resource in resources">
+          <ResourceCard :data="resource" :key="resource.id"/>
+        </template>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import ResourceCard from './ResourceCard'
 import { mapGetters } from 'vuex'
 import { db } from '../config'
 const PAGE = 10
 export default {
+  components: { ResourceCard },
   data: () => ({
     resources: [],
     loadMore: true
