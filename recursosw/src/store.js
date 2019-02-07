@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
-import { auth, ghProvider } from './config'
+import { db, auth, ghProvider } from './config'
 
 Vue.use(Vuex)
 
@@ -66,6 +66,9 @@ export default new Vuex.Store({
           email: payload.email
         })
       }
+    },
+    createResource ({ commit }, payload) {
+      return db.collection('resources').add(payload)
     }
   },
   getters: {
