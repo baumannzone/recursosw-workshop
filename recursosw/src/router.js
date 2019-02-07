@@ -21,6 +21,7 @@ const routes = routerOptions.map(route => {
 })
 
 const router = new Router({
+  mode: 'history',
   routes
 })
 
