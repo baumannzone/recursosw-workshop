@@ -1,5 +1,5 @@
 <template>
-  <form ref="form" class="full-width">
+  <v-form ref="form" class="full-width" lazy-validation>
     <v-container grid-list-md>
       <v-card flat>
         <v-card-title primary-title>
@@ -100,7 +100,7 @@
             <div class="form-buttons">
               <v-btn
                 color="primary"
-                @click="submitForm('form')"
+                @click="validateForm()"
                 :disabled="isLoading"
                 :loading="isLoading">Submit
               </v-btn>
@@ -109,7 +109,7 @@
         </v-card-text>
       </v-card>
     </v-container>
-  </form>
+  </v-form>
 </template>
 
 <script>
@@ -173,44 +173,70 @@ export default {
       this.mainImg.type = ''
       this.mainImg.base64 = ''
     },
-    submitForm (form) {
-      // const data = { formData: this.form, imgData: this.mainImg }
-      const data = {
-        ...this.form,
-        createdAt: new Date(),
-        media: {
-          mainImg: ''
-        },
-        favsCount: 0,
-        likesCount: 0
-      }
-      console.log({ data })
+    submitForm () {
       this.isLoading = true
-      this.$store.dispatch('createResource', data)
-        .then((docRef) => {
-          const data = {
-            id: docRef.id,
+      // Crear referencia
+      this.$store.dispatch('createDocRef')
+        .then((res) => {
+          const docId = res.id
+          console.log(docId, res)
+          const promises = []
+          const resourceData = {
+            ...this.form,
+            createdAt: new Date(),
+            media: {
+              mainImg: ''
+            },
+            favsCount: 0,
+            likesCount: 0
+          }
+          const imgData = {
+            id: docId,
             img: this.mainImg.base64
           }
-          this.$store.dispatch('uploadResourceImg', data)
-            .then((snapshot) => {
-              snapshot.ref.getDownloadURL()
-                .then((downloadURL) => {
-                  console.log('File available at', downloadURL)
-                  this.$store.dispatch('updateResourceImg', { id: docRef.id, img: downloadURL })
-                    .then(() => {
-                      console.log('Document successfully updated!')
-                      this.isLoading = false
-                      this.$router.push('/')
-                    })
-                })
+          promises.push(this.$store.dispatch('createResource', resourceData))
+          promises.push(this.$store.dispatch('uploadResourceImg', imgData))
+          Promise.all(promises)
+            .then((values) => {
+              console.log('<<<<<<<<<<<<<values>>>>>>>>>>>>>::::::::::::::::::')
+              console.log(values)
+            })
+            .catch((errors) => {
+              console.log('<<<<<<<<<<<<<<<<errors>>>>>>>>>>>>>>>>')
+              console.log(errors)
             })
         })
-        .catch((err) => {
-          console.log('err: ')
-          console.log(err)
-          this.isLoading = false
-        })
+
+      // this.$store.dispatch('createResource', data)
+      //   .then((docRef) => {
+      //     const data = {
+      //       id: docRef.id,
+      //       img: this.mainImg.base64
+      //     }
+      //     this.$store.dispatch('uploadResourceImg', data)
+      //       .then((snapshot) => {
+      //         snapshot.ref.getDownloadURL()
+      //           .then((downloadURL) => {
+      //             console.log('File available at', downloadURL)
+      //             this.$store.dispatch('updateResourceImg', { id: docRef.id, img: downloadURL })
+      //               .then(() => {
+      //                 console.log('Document successfully updated!')
+      //                 this.isLoading = false
+      //                 this.$router.push('/')
+      //               })
+      //           })
+      //       })
+      //   })
+      //   .catch((err) => {
+      //     console.log('err: ')
+      //     console.log(err)
+      //     this.isLoading = false
+      //   })
+    },
+    validateForm () {
+      if (this.$refs.form.validate()) {
+        this.submitForm()
+      }
     }
   }
 }
