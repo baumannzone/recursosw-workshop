@@ -54,7 +54,7 @@
                 placeholder="Tags"
                 multiple
                 label="Tags"
-              ></v-select>
+                required></v-select>
             </v-flex>
 
             <v-flex xs12>
@@ -127,7 +127,7 @@ export default {
         shortDesc: '',
         fullDesc: '',
         link: '',
-        tags: []
+        tags: null,
       },
       valid: true,
       mainImg: {
