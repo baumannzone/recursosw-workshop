@@ -12,7 +12,7 @@
 ``` 
 
 ###### Tareas:
-- Crear las vistas en `/views`
+- Crear las vistas en `/views` (Create.vue, About.vue y Resource.vue)
 - Agregar las rutas en `router.js`
 - Agregar los links al navbar/sidebar en `App.vue`
 
@@ -25,10 +25,28 @@
   </div>
 </template>
 ```
+
+> los links quedará algo así:
+```
+{ displayName: 'Create', icon: 'add', path: '/create', requireAuth: true },
+{ displayName: 'About', icon: 'info', path: '/about' },
+{ displayName: 'Resource', icon: 'info', path: '/resources/123' }
+```
+
 ![view-create](./assets/img/view-create.png)
 
-- Cuando terminemos, pasamos a la rama `step2.1_router`.
 
---- 
+---
+
+Cuando terminemos, podemos pasar a la rama `step2.1_router`.
+
+Ahora comprobamos que tenemos las siguientes vistas funcionando:
+
+- http://localhost:8080/#/about
+- http://localhost:8080/#/create
+- http://localhost:8080/#/resources/1 _(1 es el id)_
+
+---  
+
 ![footer](./assets/img/footer.png)
 
