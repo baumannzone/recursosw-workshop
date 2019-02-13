@@ -20,6 +20,7 @@ vue add vuetify
 ```
 
 - ✔  Successfully invoked generator for plugin: _vue-cli-plugin-vuetify_
+![vuetify-hello](./assets/img/installOk.png)
 
 Ya tenemos **Vuetify** instalado en nuestro proyecto.
 Levantamos el servidor (`npm run dev`) y vemos que funciona correctamente:
