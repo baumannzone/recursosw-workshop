@@ -24,6 +24,12 @@ npm install -g @vue/cli
 yarn global add @vue/cli
 ```
 
+- Comprobamos la versión
+```
+vue -V
+# 3.3.0  ó  3.4.0
+```
+
 - Creamos un nuevo proyecto:
 ```
 vue create recursosw
