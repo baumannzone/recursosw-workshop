@@ -117,6 +117,8 @@ vue create recursosw
 🎉  Successfully created project recursosw.
 👉  Get started with the following commands
 ```
+![hello-world-from-vue](./assets/img/4.png)
+
 
 ## Ejecutando la app
 Para ejecutar la app hacemos lo siguiente:
