@@ -12,7 +12,7 @@
 ``` 
 
 ###### Tareas:
-- Crear las vistas en `/views`
+- Crear las vistas en `/views` (Create.vue, About.vue y Resource.vue)
 - Agregar las rutas en `router.js`
 - Agregar los links al navbar/sidebar en `App.vue`
 
@@ -24,6 +24,13 @@
     <h1>Hola desde NOMBRE_PAG</h1>
   </div>
 </template>
+```
+
+> los links quedará algo así:
+```
+{ displayName: 'Create', icon: 'add', path: '/create', requireAuth: true },
+{ displayName: 'About', icon: 'info', path: '/about' },
+{ displayName: 'Resource', icon: 'info', path: '/resources/123' }
 ```
 
 ![view-create](./assets/img/view-create.png)
