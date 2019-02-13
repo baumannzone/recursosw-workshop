@@ -5,7 +5,7 @@
 
 ## Empezamos
 #### #1
-Lo primero que tenemos que hacer es crear un proyecto desde la consola de firebase.
+Creamos un proyecto desde la consola de firebase.
 Necesitamos tener una cuenta de firebase (google) para ello. 
 - Ir a https://firebase.google.com/ y entrar en la consola:
 
