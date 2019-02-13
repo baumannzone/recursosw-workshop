@@ -4,6 +4,8 @@
 
 
 ## Empezamos
+Seguimos los pasos tal y como se muestra a continuación:
+
 - Clonamos el repositorio y entramos en el proyecto:  
 ```
 git clone git@github.com:baumannzone/recursosw-workshop.git
