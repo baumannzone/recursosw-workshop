@@ -57,7 +57,7 @@ import { mapGetters } from 'vuex'
 export default {
   data () {
     return {
-      resource: {},
+      resource: {}
     }
   },
   computed: {

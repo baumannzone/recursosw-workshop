@@ -127,7 +127,7 @@ export default {
         shortDesc: '',
         fullDesc: '',
         link: '',
-        tags: null,
+        tags: null
       },
       valid: true,
       mainImg: {
