@@ -90,6 +90,13 @@ vue create recursosw
 ❯ Cypress (Chrome only) 
   Nightwatch (Selenium-based)
 ```
+
+```
+? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.?
+  In dedicated config files
+❯ In package.json
+```
+
 ---
 
 ![Opciones](./assets/img/1.png)
