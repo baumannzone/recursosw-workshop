@@ -34,9 +34,24 @@ db.settings({ timestampsInSnapshots: true })
 
 ```
 
-- Definimos las rutas /signin y /signout
-- Creamos los componentes vistas Signin.vue y Signout.vue
-- 
+## VUEX
+🗃️ Centralized State Management for Vue.js. https://vuex.vuejs.org
+
+Más info: https://vuex.vuejs.org/#what-is-a-state-management-pattern
+
+<p align="center">
+  <img width="600px" src="https://raw.githubusercontent.com/vuejs/vuex/dev/docs/.vuepress/public/vuex.png">
+</p>
+
+
+
+## Continuamos
+
+En este paso tenemos que hacer lo siguiente:
+
+1. Definir las rutas `/signin` y `/signout` en `router.js`
+2. Crear (en `/views`) los componentes vistas `Signin.vue` y `Signout.vue`
+3. Dotar de contenido y lógica dichas vistas
 
 --- 
 
