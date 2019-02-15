@@ -116,11 +116,9 @@
 import rules from '@/utils/rules'
 
 export default {
-  created () {
-    this.rules = rules
-  },
   data: () => {
     return {
+      rules,
       isLoading: false,
       form: {
         name: '',
@@ -149,68 +147,13 @@ export default {
   },
   methods: {
     changeFile (ev) {
-      console.log(ev)
-      if (ev.target.files.length > 0) {
-        const file = ev.target.files[ 0 ]
-        this.form.imgName = file.name
-        const reader = new FileReader()
-        reader.addEventListener('load', () => {
-          this.mainImg.name = file.name
-          this.mainImg.size = file.size
-          this.mainImg.type = file.type
-          this.mainImg.base64 = reader.result
-        }, false)
-        // FileReader.readAsDataURL()
-        reader.readAsDataURL(file)
-      } else {
-        this.clearImage()
-      }
+      console.log('File change')
     },
     clearImage () {
-      this.$refs.inputFile.value = ''
-      this.mainImg.size = 0
-      this.mainImg.name = ''
-      this.mainImg.type = ''
-      this.mainImg.base64 = ''
+      console.log('Clear img')
     },
-    submitForm (form) {
-      // const data = { formData: this.form, imgData: this.mainImg }
-      const data = {
-        ...this.form,
-        createdAt: new Date(),
-        media: {
-          mainImg: ''
-        },
-        favsCount: 0,
-        likesCount: 0
-      }
-      console.log({ data })
-      this.isLoading = true
-      this.$store.dispatch('createResource', data)
-        .then((docRef) => {
-          const data = {
-            id: docRef.id,
-            img: this.mainImg.base64
-          }
-          this.$store.dispatch('uploadResourceImg', data)
-            .then((snapshot) => {
-              snapshot.ref.getDownloadURL()
-                .then((downloadURL) => {
-                  console.log('File available at', downloadURL)
-                  this.$store.dispatch('updateResourceImg', { id: docRef.id, img: downloadURL })
-                    .then(() => {
-                      console.log('Document successfully updated!')
-                      this.isLoading = false
-                      this.$router.push('/')
-                    })
-                })
-            })
-        })
-        .catch((err) => {
-          console.log('err: ')
-          console.log(err)
-          this.isLoading = false
-        })
+    submitForm () {
+      console.log('Submit Form')
     }
   }
 }
