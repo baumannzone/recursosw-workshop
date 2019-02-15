@@ -2,7 +2,7 @@
 
 En este paso vamos a trabajar en el `store` de nuestra app.
 
-![firebase](./assets/img/vuex-store.png)
+![vuex-store](./assets/img/vuex-store.png)
 
 ###### Chuleta:
 ```
@@ -34,4 +34,4 @@ Cuando terminemos podemos ir a la rama `step3.3_auth`
 
 --- 
 
-![firebase](./assets/img/footer.png)
+![footer](./assets/img/footer.png)
