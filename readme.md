@@ -1,2 +1,9 @@
-# recursosw-workshop
-🖖💚Taller Vue + Firebase: Construyendo la app de recursOSW en vivo con Jorge Baumann (@baumannzone) y Robin Giles (@robinparadise) 🦄
+# #5 Cloud Firestore + Cloud Storage
+
+
+
+---
+Vamos a la rama `xxx_firestore`
+
+---
+![footer](./assets/img/footer.png)
