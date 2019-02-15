@@ -13,7 +13,7 @@ Necesitamos tener una cuenta de firebase (google) para ello.
 
 - Creamos un nuevo proyecto, por ejemplo `RecursosW`:
 
-![firebase_name](./assets/img/firebase_name.png)
+<img src="./assets/img/firebase_name.png" height="500px" />
 
 - Si todo ha ido bien, veremos la siguiente pantalla:
 
