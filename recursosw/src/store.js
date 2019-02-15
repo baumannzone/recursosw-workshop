@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
-import { db, auth, ghProvider, storage } from './config'
+import { auth, ghProvider } from './config'
 
 Vue.use(Vuex)
 
