@@ -1,5 +1,4 @@
-# recursosw-workshop
-
+# #3 Firebase Auth + Vuex
 🥳🖖🥳
 
 > Bonus Tip: Explicar el `autoSignIn` by Robin 😎
