@@ -27,6 +27,9 @@
 </template>
 ```
 
+![view-create](./assets/img/view-create.png)
+
+
 > Los links quedarán así:
 ```
 menuItems: [
@@ -35,9 +38,6 @@ menuItems: [
   { displayName: 'Resource', icon: 'info', path: '/resources/123' }
 ]
 ```
-
-![view-create](./assets/img/view-create.png)
-
 
 ---
 
