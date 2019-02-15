@@ -55,8 +55,10 @@ export default {
     },
     show (item) {
       if (item.path === '/signin') {
+        // Show the menu item if the user is not authenticated
         return !this.$store.getters.isAuthenticated
       } else if (item.requireAuth) {
+        // Show the menu item if the user is authenticated
         return this.$store.getters.isAuthenticated
       }
       return true
