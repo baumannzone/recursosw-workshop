@@ -27,13 +27,12 @@ Si la conexión a la red es deficiente, el cliente puede reintentar la operació
 ---
 
 ###### Descripción: 
-En este paso vamos a crear el formulario que nos permite dar de alta un recurso en la base de datos y subir la imagen correspondiente.  
-En el bloque #6 explicaremos las cloud functions, aunque hagamos uso de ellas en este paso.  
+- En el paso **#5** vamos a hacer el formulario que nos permite crear un recurso
+- Crearemos un nuevo documento en nuestra colección `resources` en Cloud Firestore
+- Subimos la imagen que hemos cargado en el formulario a Cloud Storage
 
---- 
-### Formulario: 
-
-Template - https://gist.github.com/baumannzone/02f9836d55c51fd1cc3adb1ee9330df0
+###### Template
+Revisamos el html de la vista `Create.vue`    
 
 ---
 Vamos a la rama `step5A_firestore`
