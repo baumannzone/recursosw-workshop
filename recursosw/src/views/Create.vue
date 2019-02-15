@@ -200,6 +200,7 @@ export default {
       }
       try {
         await Promise.all(promises)
+        this.$router.push({ name: 'home' })
       } catch (error) {
         console.log({ error })
       }
