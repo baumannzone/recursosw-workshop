@@ -29,7 +29,7 @@ export const generateThumbs = functions.storage
   .onFinalize(async object => {
     const bucket = admin.storage().bucket(object.bucket)
     const filePath: any = object.name
-    const [resourceId, fileName] = filePath.split('/')
+    const [ref, resourceId, fileName] = filePath.split('/')
     const bucketDir = dirname(filePath)
 
     const workingDir = join(tmpdir(), 'thumbs')
@@ -84,7 +84,7 @@ export const generateThumbs = functions.storage
 
     // 6. set thumbs to firestore
     thumbs.mainImg = getDownloadUrl(bucket, object, filePath)
-    return admin.firestore().doc(`/resources/${resourceId}`).set({
+    return admin.firestore().doc(`/${ref}/${resourceId}`).set({
       media: thumbs,
       photoRef: filePath,
     }, {merge: true})
