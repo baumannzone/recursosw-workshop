@@ -16,7 +16,9 @@ A diferencia de una base de datos SQL, no hay tablas ni filas. En su lugar, alma
 ## Cloud Storage
 https://firebase.google.com/docs/storage/?hl=es-419
 
-> Cloud Storage para Firebase es un servicio de almacenamiento de objetos (imágenes, audio, video, etc) de Google.
+> Cloud Storage para Firebase es un servicio de almacenamiento de objetos (imágenes, audio, video, etc) de Google. 
+Puedes subir y descargar archivos directamente del cliente.  
+Si la conexión a la red es deficiente, el cliente puede reintentar la operación donde la dejó de inmediato, lo cual les ahorra tiempo y ancho de banda a los usuarios.
 
 ![storage](./assets/img/cloud_storage.png)
 
