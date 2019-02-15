@@ -6,7 +6,7 @@ Vue.use(Router)
 
 const routerOptions = [
   { path: '/', name: 'home', component: 'Home' },
-  { path: '/create', name: 'Create', component: 'Create' },
+  { path: '/create', name: 'Create', component: 'Create', meta: { requiresAuth: true } },
   { path: '/resources/:id', name: 'Resource', component: 'Resource' },
   { path: '/about', name: 'About', component: 'About' },
   { path: '/signin', name: 'Signin', component: 'Signin' },
