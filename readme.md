@@ -1,10 +1,6 @@
 # #3 Firebase Authentication
 
-
-
-> Podemos ver los cambios aqui
-
----
+> Podemos ver los cambios que hemos hecho aquí:
 
 Hemos añadido la configuración de firebase (`config/firebase.js`):
 
