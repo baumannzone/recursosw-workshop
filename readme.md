@@ -22,6 +22,12 @@ que son las encargadas de mutar el estado.
   }
 ```
 
+En nuestro editor de texto, vamos al archivo `store.js`. Podemos ver que tiene las instrucciones de lo que hay que hacer.
+
+---
+
+Cuando terminemos podemos ir a la rama `step3.3_auth`
+
 --- 
 
 ![firebase](./assets/img/footer.png)
