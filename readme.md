@@ -7,19 +7,22 @@
 
 ![main](./assets/main.png)
 
-**Demo**: 👉 https://recursosw.netlify.com/#/ 👈
-
 --- 
 
-Indice:
-  * [Contenidos:](#contenidos)
+__ÍNDICE__:
+  * [Demo](#demo)
+  * [Contenidos](#contenidos)
   * [Requisitos](#requisitos)
   * [Recomendaciones](#recomendaciones)
   * [Ramas](#ramas)
   * [Autores](#autores)
   * [Agradecimientos](#agradecimientos)
   * [Licencia](#licencia)
+  
+--- 
 
+## Demo: 
+LiveDemo: 👉 https://recursosw.netlify.com/#/ 👈
 
 ## Contenidos:
 - Vue & Vuex 🖖💚
