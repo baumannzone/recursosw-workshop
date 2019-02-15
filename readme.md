@@ -49,7 +49,7 @@ En este paso tenemos que hacer lo siguiente:
 
 1. Definir las rutas `/signin` y `/signout` en `router.js`
 2. Crear (en `/views`) los componentes vistas `Signin.vue` y `Signout.vue`
-3. Dotar de contenido y lógica dichas vistas
+3. Dotar de contenido y lógica dichas vistas (*)
 
 --- 
 
