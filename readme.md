@@ -20,11 +20,23 @@ https://firebase.google.com/docs/storage/?hl=es-419
 Puedes subir y descargar archivos directamente del cliente.  
 Si la conexión a la red es deficiente, el cliente puede reintentar la operación donde la dejó de inmediato, lo cual les ahorra tiempo y ancho de banda a los usuarios.
 
-![storage](./assets/img/cloud_storage.png)
-
+<p align="center">
+  <img src="./assets/img/cloud_storage.png" height="200" />
+</p>
 
 ---
-Vamos a la rama `step5_firestore`
+
+###### Descripción: 
+En este paso vamos a crear el formulario que nos permite dar de alta un recurso en la base de datos y subir la imagen correspondiente.  
+En el bloque #6 explicaremos las cloud functions, aunque hagamos uso de ellas en este paso.  
+
+--- 
+### Formulario: 
+
+Template - https://gist.github.com/baumannzone/02f9836d55c51fd1cc3adb1ee9330df0
+
+---
+Vamos a la rama `step5A_firestore`
 
 ---
 ![footer](./assets/img/footer.png)
