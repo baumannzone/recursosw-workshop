@@ -17,7 +17,7 @@ Necesitamos tener una cuenta de firebase (google) para ello.
 
 - Si todo ha ido bien, veremos la siguiente pantalla:
 
-![firebase_done](./assets/img/firebase_done.png)
+<img src="./assets/img/firebase_done.png" height="500px" />
 
 - Dentro de la consola de firebase, vamos a la pestaña de **Authentication**.
 
@@ -28,12 +28,12 @@ de Github: https://github.com/settings/developers
 
 - Click en el botón 'New OAuth App' y rellenar los datos, similar a la imagen...
 
-![github_developer](./assets/img/github_developer.png)
+<img src="./assets/img/github_developer.png" height="500px" />
 
 - Copiamos el *Client ID* y *Client Secret* y, 
 de vuelta a Firebase, lo pegamos en los campos correspondientes
 
-![fb_sign_in](./assets/img/firebase_sign_in.png)
+<img src="./assets/img/firebase_sign_in.png" height="500px" />
 
 - De vuelta al proyecto, editamos el archivo `/src/config/firebase.js` 
 y añadimos la configuración del proyecto que acabamos de crear 😉.
