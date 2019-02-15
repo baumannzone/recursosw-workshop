@@ -67,14 +67,14 @@ export default new Vuex.Store({
         })
       }
     },
-    createResource ({ commit }, payload) {
-      return db.collection('resources').set(payload)
+    createResource ({ commit }, { id, ...payload }) {
+      return db.collection('resources').doc(id).set(payload, { merge: true })
     },
-    uploadResourceImg ({ commit }, { id, img }) {
+    uploadResourceImg ({ commit }, { id, file }) {
       return storage
         .ref(`resources/${id}/`)
         .child('mainImg')
-        .putString(img, 'data_url', { contentType: 'image/png' })
+        .put(file)
     },
     createDocRef () {
       return db.collection('resources').doc()
