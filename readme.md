@@ -43,6 +43,7 @@ db.settings({ timestampsInSnapshots: true })
   <img width="700px" src="./assets/img/vuex-in-action.gif">
 </p>
 
+Ejemplo: https://github.com/vuejs/vuex/blob/dev/examples/counter/store.js
 
 
 ## Continuamos
