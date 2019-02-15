@@ -53,13 +53,8 @@ Si no tienes estos parámetros configurados se cogerán algunos valores por defe
 > [Documentación Oficial](http://ogp.me/#metadata)  
 > [Chuleta](https://github.com/DevJourneyMadrid/june-18/blob/9cfb042919f8b9e44fb4d42b2f7106c952e0f2b7/public/index.html#L16)
 
-¿Ya lo tienes? Puedes ir a la rama `step4.1_netlify` para ver el resultado.
-
 ---
-
-Acabamos de añadir los metadatos y al compartir en Slack el enlace ya se puede ver el resultado:  
-![og-preview](./assets/img/og-preview.png)
-
+¿Ya lo tienes? Puedes ir a la rama `step4.1_netlify` para ver el resultado.
 
 ---
 ![footer](./assets/img/footer.png)
