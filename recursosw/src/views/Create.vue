@@ -199,7 +199,18 @@ export default {
         promises.push(this.$store.dispatch('uploadResourceImg', imgData))
       }
       try {
-        await Promise.all(promises)
+        await promises[0]
+        const snapshot = await promises[1]
+        // Comment this code if you have cloud function backend
+        const downloadURL = await snapshot.ref.getDownloadURL()
+        await this.$store.dispatch('createResource', {
+          id: docId,
+          media: {
+            mainImg: downloadURL
+          }
+        })
+        // **************
+
         this.$router.push({ name: 'home' })
       } catch (error) {
         console.log({ error })
