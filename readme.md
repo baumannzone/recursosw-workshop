@@ -3,6 +3,11 @@
 
 ![firebase](./assets/img/firebase.png)
 
+**Firebase Authentication** proporciona servicios de backend, SDK fáciles de usar y bibliotecas de IU ya elaboradas para autenticar a los usuarios en tu aplicación.  
+Admite la autenticación mediante contraseñas, números de teléfono, proveedores de identidad federados populares, como Google, Facebook y Twitter, y mucho más.
+
+Más info: [Firebase Auth Docs](https://firebase.google.com/docs/auth/?gclid=CjwKCAiA45njBRBwEiwASnZT56aBRLGJrDu6aELp22XPwlXfE6ckFVB6-AlLFoLedkXtlZBp2Vih0xoC4UkQAvD_BwE)
+
 ## Empezamos
 #### #1
 Creamos un proyecto desde la consola de firebase.
