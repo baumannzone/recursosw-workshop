@@ -1,4 +1,4 @@
-# #3 Vuex
+# #3 Firebase Auth + Vuex
 
 - Implementamos el getter isAuthenticated para poder usarlo en la vista App.vue
 
