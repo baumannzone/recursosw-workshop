@@ -8,7 +8,7 @@ A diferencia de una base de datos SQL, no hay tablas ni filas. En su lugar, alma
 <p align="center">
   <img src="./assets/img/firestore1.png" width="400"/>
   <br>
-  <img src="./assets/img/firestore2.png" width="400"/>
+  <img src="./assets/img/firestore2.png" width="500"/>
 </p>
 
 🔗 Ver más - [Firestore](https://firebase.google.com/docs/firestore/data-model?hl=es-419)
