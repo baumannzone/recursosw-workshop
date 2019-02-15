@@ -60,8 +60,8 @@ LiveDemo: 👉 https://recursosw.netlify.com/#/ 👈
 | Vuetify   | `step1_vuetify` <br> `step1.1_vuetify`   |
 | Router    | `step2_router` <br> `step2.1_router`     |
 | Vuex + Firebase Auth              | `step3_auth` <br> `step3.1_auth` <br> `step3.3_auth` <br> `step3.4_auth` <br> `step3.5_auth`  |
-| Hosting & Deploy + <br> Open Graph  | `step4_netlify` <br> `step4.1_netlify` |
-| Cloud Firestore + Cloud Storage | `step5_firestore` <br> `...` | 
+| Hosting & Deploy + <br> Open Graph   | `step4_netlify` <br> `step4.1_netlify` |
+| Cloud Firestore + <br> Cloud Storage | `step5_firestore` <br> `...` | 
 
 ---
 
