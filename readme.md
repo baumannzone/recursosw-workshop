@@ -6,9 +6,9 @@ Se puede usar en el lado del cliente o en el servidor.
 A diferencia de una base de datos SQL, no hay tablas ni filas. En su lugar, almacenas los datos en documentos, que se organizan en colecciones.
 
 <p align="center">
-  <img src="./assets/img/firestore1.png" width="400"/>
+  <img src="./assets/img/firestore1.png"/>
   <br>
-  <img src="./assets/img/firestore2.png" width="500"/>
+  <img src="./assets/img/firestore2.png"/>
 </p>
 
 🔗 Ver más - [Firestore](https://firebase.google.com/docs/firestore/data-model?hl=es-419)
