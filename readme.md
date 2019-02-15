@@ -8,4 +8,6 @@
 --- 
 Cambiamos de rama: `step4_netlify`
 
---- 
+---
+
+![footer](./assets/img/footer.png) 
