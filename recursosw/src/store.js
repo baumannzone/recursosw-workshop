@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 // Import router
 // Import the firebase services that we have enabled before (config/index.js)
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
