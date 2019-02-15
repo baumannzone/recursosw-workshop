@@ -1,6 +1,9 @@
 # #3 Firebase Auth + Vuex
 
 En este paso vamos a trabajar en el `store` de nuestra app.
+
+![firebase](./assets/img/vuex-store.png)
+
 ###### Chuleta:
 ```
 Componente  => Acción   : this.$store.dispatch('NombreAccion')
@@ -22,7 +25,8 @@ que son las encargadas de mutar el estado.
   }
 ```
 
-En nuestro editor de texto, vamos al archivo `store.js`. Podemos ver que tiene las instrucciones de lo que hay que hacer.
+En nuestro editor de texto, vamos al archivo `store.js`. Podemos ver que tiene las instrucciones de lo que hay que hacer.  
+Vamos a ello! 💪
 
 ---
 
