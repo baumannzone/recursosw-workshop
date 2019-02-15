@@ -51,7 +51,7 @@
 | Vue       | `step0_vue`   |
 | Vuetify   | `step1_vuetify` <br> `step1.1_vuetify`   |
 | Router    | `step2_router` <br> `step2.1_router`     |
-| Vuex + Firebase Auth              | -  |
+| Vuex + Firebase Auth              | `step3_auth` <br> `step3.1_auth` <br> `step3.3_auth` <br> `step3.4_auth` <br> `step3.5_auth`  |
 | Hosting & Deploy <br> Open Graph  | -  |
 | Firebase Firestore                | -  | 
 
