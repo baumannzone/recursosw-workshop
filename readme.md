@@ -1,4 +1,4 @@
-# #3 Vuex
+# #3 Firebase Auth + Vuex
 
 - Definimos las rutas /signin y /signout en el router
 - Creamos los componentes vistas Signin.vue y Signout.vue
