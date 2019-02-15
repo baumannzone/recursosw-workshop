@@ -17,8 +17,11 @@ Podríamos decir que para hacer uso del _estado_ en nuestras vistas usamos los `
 En el fichero `store.js` creamos un nuevo bloque: `getters`.  
 Dentro una función (`isAuthenticated`) que devuelva `true` o `false` dependiendo si el usuario esta logeado o no. 
 
----
+Una vez creado, lo podemos llamar desde cualquier parte de nuestra app.  
+Vamos a utilizarlo en `App.vue`, en el método `show()`.
 
+
+---
 Cuando terminemos podemos ir a la rama `step3.4_auth` para ver el resultado final
 
 --- 

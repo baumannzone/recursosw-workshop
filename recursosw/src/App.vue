@@ -52,6 +52,9 @@ export default {
       this.$router.push('/')
     },
     show (item) {
+      // Call getter
+      // "Signin" : Show the menu item if the user is not authenticated
+      // "Others" : Show the menu item if the user is authenticated
       return true
     },
     onSearch () {
