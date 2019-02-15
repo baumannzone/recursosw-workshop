@@ -20,7 +20,9 @@ https://firebase.google.com/docs/storage/?hl=es-419
 Puedes subir y descargar archivos directamente del cliente.  
 Si la conexión a la red es deficiente, el cliente puede reintentar la operación donde la dejó de inmediato, lo cual les ahorra tiempo y ancho de banda a los usuarios.
 
-![storage](./assets/img/cloud_storage.png)
+<p align="center">
+  <img src="./assets/img/cloud_storage.png" height="200" />
+</p>
 
 
 ---
