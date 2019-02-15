@@ -7,7 +7,9 @@ En el paso anterior hemos visto y usado las `acciones` y las `mutaciones`. Es el
 
 Recordemos lo que vimos en pasos anteriores:
 
-![firebase](./assets/img/vuex-store.png)
+![firebase](./assets/img/vuex.png)
+
+Podríamos decir que para hacer uso del *estado* en nuestras vistas usamos los `getters` 
 
 
 ---
