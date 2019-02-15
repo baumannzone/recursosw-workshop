@@ -38,6 +38,8 @@ db.settings({ timestampsInSnapshots: true })
 🗃️ Centralized State Management for Vue.js. https://vuex.vuejs.org
 
 <p align="center">
+  <img width="600px" src="https://raw.githubusercontent.com/vuejs/vuex/dev/docs/.vuepress/public/vuex.png">
+  <br>
   <img width="600px" src="./assets/img/vuex-in-action.gif">
 </p>
 
