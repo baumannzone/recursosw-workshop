@@ -4,7 +4,7 @@
       <v-card>
         <v-img
           v-if="resource.media"
-          :src="resource.media.mainImg" aspect-ratio="2.75"
+          :src="resource.media['640x640'] || resource.media.mainImg" aspect-ratio="2.75"
         ></v-img>
 
         <v-card-title primary-title>

@@ -2,7 +2,9 @@
   <v-card flat>
     <div class="resource pa-2 mb-2">
       <div class="resource-img">
-        <img :src="data.media ? data.media.mainImg : ''" width="85px"/>
+        <img
+          :src="data.media ? (data.media['128x128'] || data.media.mainImg) : ''"
+          width="85px"/>
       </div>
       <div class="resource-content pl-3">
         <div class="top">
