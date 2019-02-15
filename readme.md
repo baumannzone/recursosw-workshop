@@ -37,4 +37,4 @@ Cambiamos de rama: `step3.5_auth`
 
 --- 
 
-![firebase](./assets/img/footer.png)
+![footer](./assets/img/footer.png)
