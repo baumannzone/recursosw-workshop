@@ -11,6 +11,10 @@ Recordemos lo que vimos en pasos anteriores:
 
 Podríamos decir que para hacer uso del _estado_ en nuestras vistas usamos los `getters` 
 
+---
+
+#### Getters
+
 
 ---
 
