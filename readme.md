@@ -26,7 +26,7 @@ Si la conexión a la red es deficiente, el cliente puede reintentar la operació
 
 
 ---
-Vamos a la rama `step5_firestore`
+Vamos a la rama `step5A_firestore`
 
 ---
 ![footer](./assets/img/footer.png)
