@@ -1,19 +1,11 @@
-# recursosw-workshop
+# Cloud Functions # 6
 🖖💚Taller Vue + Firebase: Construyendo la app de recursOSW en vivo con Jorge Baumann (@baumannzone) y Robin Giles (@robinparadise) 🦄
 
 ```
 $ npm i -g firebase-tools
 $ firebase login
 $ firebase init
-```
 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-```
 ? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, 
 then Enter to confirm your choices. 
  ◯ Database: Deploy Firebase Realtime Database Rules
