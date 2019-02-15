@@ -1,10 +1,26 @@
 # #3 Firebase Auth + Vuex
 
-- Definimos las rutas /signin y /signout en el router
-- Creamos los componentes vistas Signin.vue y Signout.vue
+En este paso vamos a trabajar en el `store` de nuestra app.
+###### Chuleta:
+```
+Componente  => Acción   : this.$store.dispatch('NombreAccion')
+Acción      => Mutación : commit('NombreMutacion')
+Mutación    => Estado   : state.variable = value
+```  
+Desde los componentes vamos a llamar a las acciones (`dispatch`) 
+que van a llamar a las mutaciones (`commit`)
+que son las encargadas de mutar el estado.
 
-Dentro de la vista Signin.vue tendremos un botón que se encargará del
-flujo de la autenticación con Github.
+###### Datos para store.js  
+
+```
+  state: {
+    userData: null,
+    user: null,
+    error: null,
+    loading: false
+  }
+```
 
 --- 
 
