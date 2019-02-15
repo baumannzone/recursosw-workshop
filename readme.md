@@ -38,8 +38,9 @@ db.settings({ timestampsInSnapshots: true })
 
 ```
 
-
-
+- Definimos las rutas /signin y /signout
+- Creamos los componentes vistas Signin.vue y Signout.vue
+- 
 
 --- 
 
