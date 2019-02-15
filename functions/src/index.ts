@@ -5,6 +5,8 @@ import { join, dirname } from 'path'
 const sharp = require('sharp');
 const fs = require('fs-extra');
 
+admin.initializeApp()
+
 const formats: any = {
   'image/png': 'png',
   'image/jpeg': 'jpeg',
