@@ -6,7 +6,7 @@
 
 
 --- 
-Cambiamos de rama: `step4_netlify`
+Cambiamos de rama (y de bloque): `step4_netlify`
 
 ---
 
