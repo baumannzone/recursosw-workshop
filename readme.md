@@ -26,6 +26,7 @@ Si la conexión a la red es deficiente, el cliente puede reintentar la operació
 
 ---
 
+###### Descripción: 
 En este paso vamos a crear el formulario que nos permite dar de alta un recurso en la base de datos y subir la imagen correspondiente.  
 En el bloque #6 explicaremos las cloud functions, aunque hagamos uso de ellas en este paso.  
 
