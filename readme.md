@@ -14,7 +14,8 @@ Podríamos decir que para hacer uso del _estado_ en nuestras vistas usamos los `
 ---
 
 #### Getters
-
+En el fichero `store.js` creamos un nuevo bloque: `getters`.  
+Dentro una función (`isAuthenticated`) que devuelva `true` o `false` dependiendo si el usuario esta logeado o no. 
 
 ---
 
