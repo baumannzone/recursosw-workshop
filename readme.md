@@ -1,4 +1,4 @@
-# #3 Firebase Authentication
+# #3 Firebase Auth + Vuex
 
 > Podemos ver los cambios que hemos hecho aquí:
 
