@@ -17,12 +17,15 @@ Necesitamos tener una cuenta de firebase (google) para ello.
 ![firebase_console](./assets/img/firebase_console.png)
 
 - Creamos un nuevo proyecto, por ejemplo `RecursosW`:
-
-<img src="./assets/img/firebase_name.png" height="500px" />
+<p align="center">
+  <img src="./assets/img/firebase_name.png" height="500px" />
+</p>
 
 - Si todo ha ido bien, veremos la siguiente pantalla:
 
-<img src="./assets/img/firebase_done.png" height="500px" />
+<p align="center">
+  <img src="./assets/img/firebase_done.png" height="500px" />
+</p>
 
 - Dentro de la consola de firebase, vamos a la pestaña de **Authentication**.
 
@@ -33,17 +36,22 @@ de Github: https://github.com/settings/developers
 
 - Click en el botón 'New OAuth App' y rellenar los datos, similar a la imagen...
 
-<img src="./assets/img/github_developer.png" height="500px" />
+<p align="center">
+  <img src="./assets/img/github_developer.png" height="500px" />
+</p>
 
-- Copiamos el *Client ID* y *Client Secret* y, 
-de vuelta a Firebase, lo pegamos en los campos correspondientes
+- Copiamos el *Client ID* y *Client Secret* y, de vuelta a Firebase, lo pegamos en los campos correspondientes
 
-<img src="./assets/img/firebase_sign_in.png" height="500px" />
+<p align="center">
+  <img src="./assets/img/firebase_sign_in.png" height="500px" />
+</p>
 
 - De vuelta al proyecto, editamos el archivo `/src/config/firebase.js` 
 y añadimos la configuración del proyecto que acabamos de crear 😉.
 
-<img src="./assets/img/firebase_config.png" height="500px" />
+<p align="center">
+  <img src="./assets/img/firebase_config.png" height="500px" />
+</p>
 
 ## Congrats!
 👏 😊 🎊 Ya lo has configurado. ¡Es momento de ponerse manos a la obra! 💪 
