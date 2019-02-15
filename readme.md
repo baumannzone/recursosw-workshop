@@ -6,9 +6,9 @@
 
 ---
 
-Añadimos la configuración de firebase (config/firebase.js):
+Hemos añadido la configuración de firebase (`config/firebase.js`):
 
-```
+```js
 export default {
   apiKey: 'AIzaSyA_pdyr1w6IeX7gVfZdWZE7YUFt6ooTcmE',
   authDomain: 'recursosw-33905.firebaseapp.com',
@@ -19,9 +19,9 @@ export default {
 }
 ```
 
-Importamos y exportamos los servicios de firebase (config/index.js):
+Hemos importado y exportado los servicios de firebase (`config/index.js`):
 
-```
+```js
 import firebase from 'firebase'
 import 'firebase/firestore'
 import 'firebase/storage'
