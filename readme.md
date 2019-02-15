@@ -13,9 +13,12 @@ http://ogp.me/
 ---
 
 
-
 Acabamos de añadir los metadatos y al compartir en Slack el enlace ya se puede ver el resultado:  
 ![og-preview](./assets/img/og-preview.png)
+
+---
+
+Vamos a la rama `step5_firestore`
 
 
 ---
