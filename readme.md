@@ -1,4 +1,4 @@
-# #3 Firebase Authentication
+# #3 Firebase Auth + Vuex
 > Firebase utiliza la infraestructura de Google y se escala automáticamente con tu aplicación  
 
 ![firebase](./assets/img/firebase.png)
