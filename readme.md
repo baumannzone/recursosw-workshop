@@ -6,7 +6,7 @@
 
 ---
 
-Añadimos la configuración de firebase:
+Añadimos la configuración de firebase (config/firebase.js):
 
 ```
 export default {
@@ -19,7 +19,7 @@ export default {
 }
 ```
 
-Importamos y exportamos los servicios de firebase:
+Importamos y exportamos los servicios de firebase (config/index.js):
 
 ```
 import firebase from 'firebase'
