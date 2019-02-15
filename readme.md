@@ -7,9 +7,9 @@ En el paso anterior hemos visto y usado las `acciones` y las `mutaciones`. Es el
 
 Recordemos lo que vimos en pasos anteriores:
 
-![firebase](./assets/img/vuex.png)
+![vuex](./assets/img/vuex.png)
 
-Podríamos decir que para hacer uso del *estado* en nuestras vistas usamos los `getters` 
+Podríamos decir que para hacer uso del _estado_ en nuestras vistas usamos los `getters` 
 
 
 ---
@@ -18,4 +18,4 @@ Cuando terminemos podemos ir a la rama `step3.4_auth` para ver el resultado fina
 
 --- 
 
-![firebase](./assets/img/footer.png)
+![footer](./assets/img/footer.png)
