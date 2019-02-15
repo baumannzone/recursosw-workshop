@@ -31,7 +31,7 @@
                 v-model="form.shortDesc"
                 :rules="[rules.required]"
                 label="Short description"
-                counter="60"
+                counter="100"
                 placeholder="Description"
                 required></v-text-field>
             </v-flex>
@@ -123,11 +123,14 @@ export default {
     return {
       isLoading: false,
       form: {
-        name: '',
-        shortDesc: '',
-        fullDesc: '',
-        link: '',
-        tags: null
+        name: 'Madeira',
+        shortDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+        fullDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        link: 'https://www.lipsum.com/',
+        tags: ['Developer Tools',
+          'Web Apps',
+          'Productivity'
+        ]
       },
       valid: true,
       mainImg: {
@@ -160,7 +163,6 @@ export default {
           this.mainImg.type = file.type
           this.mainImg.base64 = reader.result
         }, false)
-        // FileReader.readAsDataURL()
         reader.readAsDataURL(file)
       } else {
         this.clearImage()
@@ -173,65 +175,46 @@ export default {
       this.mainImg.type = ''
       this.mainImg.base64 = ''
     },
-    submitForm () {
+    async submitForm () {
       this.isLoading = true
-      // Crear referencia
-      this.$store.dispatch('createDocRef')
-        .then((res) => {
-          const docId = res.id
-          console.log(docId, res)
-          const promises = []
-          const resourceData = {
-            ...this.form,
-            createdAt: new Date(),
-            media: {
-              mainImg: ''
-            },
-            favsCount: 0,
-            likesCount: 0
+      const res = await this.$store.dispatch('createDocRef')
+      const docId = res.id
+      const promises = []
+      const resourceData = {
+        id: docId,
+        ...this.form,
+        createdAt: new Date(),
+        media: {
+          mainImg: ''
+        },
+        favsCount: 0,
+        likesCount: 0
+      }
+      promises.push(this.$store.dispatch('createResource', resourceData))
+      if (this.$refs.inputFile.files && this.$refs.inputFile.files[0]) {
+        const imgData = {
+          id: docId,
+          file: this.$refs.inputFile.files[0]
+        }
+        promises.push(this.$store.dispatch('uploadResourceImg', imgData))
+      }
+      try {
+        await promises[0]
+        const snapshot = await promises[1]
+        // Comment this code if you have cloud function backend
+        const downloadURL = await snapshot.ref.getDownloadURL()
+        await this.$store.dispatch('createResource', {
+          id: docId,
+          media: {
+            mainImg: downloadURL
           }
-          const imgData = {
-            id: docId,
-            img: this.mainImg.base64
-          }
-          promises.push(this.$store.dispatch('createResource', resourceData))
-          promises.push(this.$store.dispatch('uploadResourceImg', imgData))
-          Promise.all(promises)
-            .then((values) => {
-              console.log('<<<<<<<<<<<<<values>>>>>>>>>>>>>::::::::::::::::::')
-              console.log(values)
-            })
-            .catch((errors) => {
-              console.log('<<<<<<<<<<<<<<<<errors>>>>>>>>>>>>>>>>')
-              console.log(errors)
-            })
         })
+        // **************
 
-      // this.$store.dispatch('createResource', data)
-      //   .then((docRef) => {
-      //     const data = {
-      //       id: docRef.id,
-      //       img: this.mainImg.base64
-      //     }
-      //     this.$store.dispatch('uploadResourceImg', data)
-      //       .then((snapshot) => {
-      //         snapshot.ref.getDownloadURL()
-      //           .then((downloadURL) => {
-      //             console.log('File available at', downloadURL)
-      //             this.$store.dispatch('updateResourceImg', { id: docRef.id, img: downloadURL })
-      //               .then(() => {
-      //                 console.log('Document successfully updated!')
-      //                 this.isLoading = false
-      //                 this.$router.push('/')
-      //               })
-      //           })
-      //       })
-      //   })
-      //   .catch((err) => {
-      //     console.log('err: ')
-      //     console.log(err)
-      //     this.isLoading = false
-      //   })
+        this.$router.push({ name: 'home' })
+      } catch (error) {
+        console.log({ error })
+      }
     },
     validateForm () {
       if (this.$refs.form.validate()) {
