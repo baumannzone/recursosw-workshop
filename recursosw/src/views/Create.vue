@@ -190,12 +190,14 @@ export default {
         favsCount: 0,
         likesCount: 0
       }
+      // promise 0
       promises.push(this.$store.dispatch('createResource', resourceData))
       if (this.$refs.inputFile.files && this.$refs.inputFile.files[0]) {
         const imgData = {
           id: docId,
           file: this.$refs.inputFile.files[0]
         }
+        // promise 1
         promises.push(this.$store.dispatch('uploadResourceImg', imgData))
       }
       try {
