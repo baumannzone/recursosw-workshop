@@ -38,13 +38,10 @@
 
 ---
 
-Cuando terminemos, podemos pasar a la rama `step2.1_router`.
-
-Ahora comprobamos que tenemos las siguientes vistas funcionando:
-
-- http://localhost:8080/#/about
-- http://localhost:8080/#/create
-- http://localhost:8080/#/resources/1 _(1 es el id)_
+Cuando terminemos (o para ver la solución), podemos pasar a la rama `step2.1_router`.
+```
+git checkout step2.1_router
+```
 
 ---  
 
