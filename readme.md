@@ -53,6 +53,10 @@ En este paso tenemos que hacer lo siguiente:
 2. Crear (en `/views`) los componentes vistas `Signin.vue` y `Signout.vue`
 3. Dotar de contenido y lógica dichas vistas (*)
 
+---
+
+Para continuar, vamos a la rama `step3.2_auth`
+
 --- 
 
 ![firebase](./assets/img/footer.png)
