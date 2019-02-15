@@ -3,6 +3,11 @@
 
 ## Empezamos
 
+###### Tareas:
+- Crear las vistas en `/views` (Create.vue, About.vue y Resource.vue)
+- Agregar las rutas en `router.js`
+- Agregar los links al navbar/sidebar en `App.vue`
+
 ###### Rutas:
 ```
   { path: '/', name: 'home', component: 'Home' },
@@ -11,12 +16,8 @@
   { path: '/about', name: 'About', component: 'About' }
 ``` 
 
-###### Tareas:
-- Crear las vistas en `/views` (Create.vue, About.vue y Resource.vue)
-- Agregar las rutas en `router.js`
-- Agregar los links al navbar/sidebar en `App.vue`
 
-> El `template` de las vistas tiene que ser algo sencillo como esto:
+> El `template` de las vistas tiene que ser algo sencillo, como esto:
 
 ```
 <template>
@@ -26,11 +27,13 @@
 </template>
 ```
 
-> los links quedará algo así:
+> Los links quedarán así:
 ```
-{ displayName: 'Create', icon: 'add', path: '/create', requireAuth: true },
-{ displayName: 'About', icon: 'info', path: '/about' },
-{ displayName: 'Resource', icon: 'info', path: '/resources/123' }
+menuItems: [
+  { displayName: 'Create', icon: 'add', path: '/create', requireAuth: true },
+  { displayName: 'About', icon: 'info', path: '/about' },
+  { displayName: 'Resource', icon: 'info', path: '/resources/123' }
+]
 ```
 
 ![view-create](./assets/img/view-create.png)
