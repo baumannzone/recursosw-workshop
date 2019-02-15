@@ -40,7 +40,7 @@ db.settings({ timestampsInSnapshots: true })
 <p align="center">
   <img width="600px" src="https://raw.githubusercontent.com/vuejs/vuex/dev/docs/.vuepress/public/vuex.png">
   <br>
-  <img width="600px" src="./assets/img/vuex-in-action.gif">
+  <img width="700px" src="./assets/img/vuex-in-action.gif">
 </p>
 
 
