@@ -1,5 +1,14 @@
-# Cloud Functions # 6
-🖖💚Taller Vue + Firebase: Construyendo la app de recursOSW en vivo con Jorge Baumann (@baumannzone) y Robin Giles (@robinparadise) 🦄
+# #6 Cloud Functions
+
+
+## Cloud Functions para Firebase
+Cloud Functions para Firebase te permite ejecutar de forma automática el código de backend en respuesta a eventos activados por las funciones de Firebase y las solicitudes HTTPS.
+
+https://firebase.google.com/docs/functions/?hl=es-419
+
+---
+
+### Instalamos
 
 ```
 $ npm i -g firebase-tools
@@ -15,7 +24,7 @@ then Enter to confirm your choices.
  ◯ Storage: Deploy Cloud Storage security rules
 ```
 
-=== Project Setup
+### Project Setup
 
 First, let's associate this project directory with a Firebase project.
 You can create multiple project aliases by running firebase use --add, 
@@ -32,7 +41,7 @@ but for now we'll just set up a default project.
   [create a new project] 
 ```
 
-=== Functions Setup
+### Functions Setup
 
 A functions directory will be created in your project with a Node.js
 package pre-configured. Functions can be deployed with firebase deploy.
@@ -63,7 +72,12 @@ i  Writing project information to .firebaserc...
 
 ✔  Firebase initialization complete!
 
+---
 
+En el proyecto de **recursosw** usamos las funciones, entre otras cosas, para generar imagenes de distintos tamaños, guardarlas en el storage y asociar dichas imagenes al recurso que acabamos de crear. 
+
+
+###### Tu turno..
 - Ahora completa la función para redimensionar las imágenes
 
 ```js
