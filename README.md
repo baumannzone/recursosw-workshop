@@ -129,4 +129,13 @@ export const generateThumbs = functions.storage
 
     // 6. set thumbs to firestore
   })
+  
+```
+
+---
+Vamos a la rama `step5.1_firestore`
+
+---
+
+![footer](./assets/img/footer.png)
 
