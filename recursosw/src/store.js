@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
-import { db, auth, ghProvider } from './config'
+import { storage, db, auth, ghProvider } from './config'
 
 Vue.use(Vuex)
 
@@ -67,8 +67,17 @@ export default new Vuex.Store({
         })
       }
     },
-    createResource ({ commit }, payload) {
-      return db.collection('resources').add(payload)
+    createResource ({ commit }, { id, ...payload }) {
+      return db.collection('resources').doc(id).set(payload, { merge: true })
+    },
+    uploadResourceImg ({ commit }, { id, file }) {
+      return storage
+        .ref(`resources/${id}/`)
+        .child('mainImg')
+        .put(file)
+    },
+    createDocRef () {
+      return db.collection('resources').doc()
     }
   },
   getters: {
