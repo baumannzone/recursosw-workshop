@@ -32,8 +32,8 @@ LiveDemo: 👉 https://recursosw.netlify.com/#/ 👈
 - Procesamiento de imágenes (Cloud Functions + Storage) 🌐
 - Open Graph (metadatos) 🔣
 - Hosting & Deploy con Netlify ⛓
-- Testing (Unit testing, E2E testing) ✅
-- Buscador con Algolia / Elasticsearch 🔍
+- ~Testing (Unit testing, E2E testing)~ ✅
+- ~Buscador con Algolia / Elasticsearch~ 🔍
 
 ![main](./assets/VueFirebase.png)
 
@@ -61,7 +61,7 @@ LiveDemo: 👉 https://recursosw.netlify.com/#/ 👈
 | Router    | `step2_router` <br> `step2.1_router`     |
 | Vuex + Firebase Auth              | `step3_auth` <br> `step3.1_auth` <br> `step3.3_auth` <br> `step3.4_auth` <br> `step3.5_auth`  |
 | Hosting & Deploy + <br> Open Graph   | `step4_netlify` <br> `step4.1_netlify` |
-| Cloud Firestore + <br> Cloud Storage | `step5_firestore` <br> `...` | 
+| Cloud Firestore + <br> Cloud Storage | `step5_firestore` <br> `step5A_firestore` <br> `step5.1_firestore` <br> `step5.1A_firestore` <br> `step5.2_firestore` <br> `step5.2A_firestore`| 
 
 ---
 
