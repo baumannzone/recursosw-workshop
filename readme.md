@@ -142,6 +142,12 @@ Vista previa de la app
 
 ## Conclusiones
 
+Esperamos que os haya gustado el taller. ¡Muchas gracias por venir!
+
+
+
+
+
 :trollface:
   
    
