@@ -2,7 +2,7 @@
 
 Ahora ya disponemos de la vista `Create.vue` funcional.
 
-A continuación listaremos recursos de la coleción `resources` de Cloud Firestore.
+A continuación vamos a obtener todos los recursos de nuestra coleción `resources` de Cloud Firestore.
 
 ## VueFire
 https://github.com/vuejs/vuefire
@@ -25,7 +25,7 @@ Dentro del componente, vuefire nos permite crear un bloque llamado `firebase`.
   }
 ```
 
-De esta fomra sencilla disponemos los recursos de en el array resources: []
+De esta forma sencilla disponemos de los recursos en el array `resources`
 
 ---
 Vamos a la rama `step5.1A_firestore`
