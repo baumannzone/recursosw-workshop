@@ -134,7 +134,7 @@ export const generateThumbs = functions.storage
 ```
 
 ---
-Vamos a la rama `step5.1_firestore`
+Vamos a la rama `step6.1_functions`
 
 ---
 
