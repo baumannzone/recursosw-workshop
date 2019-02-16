@@ -37,9 +37,6 @@ but for now we'll just set up a default project.
 ```
 ? Select a default Firebase project for this directory: 
   [don't setup a default project] 
-  hamelin-1fa2c (hamelin) 
-  hamelin-91968 (hamelin-dev) 
-  natura-19a4a (Natura) 
 ❯ recursosw-33905 (RecursosW) 
   recursosw-cbe9e (recursosw) 
   [create a new project] 
