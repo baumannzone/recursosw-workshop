@@ -5,7 +5,7 @@ Ahora ya disponemos de la vista `Create.vue` funcional.
 A continuación vamos a obtener todos los recursos de nuestra coleción `resources` de Cloud Firestore.
 
 ## VueFire
-https://github.com/vuejs/vuefire
+🔥 Firebase bindings for Vue.js - https://github.com/vuejs/vuefire
 
 > ¿Por qué VueFire?  
 
