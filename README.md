@@ -6,6 +6,10 @@ Cloud Functions para Firebase te permite ejecutar de forma automática el códig
 
 https://firebase.google.com/docs/functions/?hl=es-419
 
+### Caso de uso
+![cloud-f](./assets/img/cf.png)
+
+
 ---
 
 ### Instalamos
