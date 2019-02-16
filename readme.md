@@ -12,6 +12,7 @@ __ÍNDICE__:
   * [Contenidos](#contenidos)
   * [Requisitos](#requisitos)
   * [Recomendaciones](#recomendaciones)
+  * [Slides](#slides)
   * [Ramas](#ramas)
   * [Autores](#autores)
   * [Agradecimientos](#agradecimientos)
@@ -51,6 +52,9 @@ LiveDemo: 👉 https://recursosw.netlify.com/#/ 👈
 - Sistema Operativo: Linux, Mac
 - Navegador web (moderno): Google Chrome, Firefox, ...
 - Vue Dev Tools: Extensión del navegador ([Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=es) / [Firefox](https://addons.mozilla.org/es/firefox/addon/vue-js-devtools/)) 
+
+## Slides
+https://slides.com/baumannzone/recursosw-workshop/
 
 ---
 ## Ramas 
