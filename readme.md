@@ -1,4 +1,4 @@
-# Taller Vue + Firebase
+# Taller Vue + Firebase 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8328ca6d-64b5-41f4-932b-349ece40f79e/deploy-status)](https://app.netlify.com/sites/recursosw-workshop/deploys)
 > 🖖💚 + 🔥 Construyendo la app de recurs**OSW** en vivo con Jorge Baumann [(@baumannzone)](https://github.com/baumannzone)  
 > y Robin Giles [(@robinparadise)](https://github.com/robinparadise) ✏️🦄 
@@ -78,7 +78,7 @@ https://slides.com/baumannzone/recursosw-workshop/
 > OSW
 
 ## Licencia
-[License](./LICENSE)
+Ver [Licencia](./LICENSE)
 
 ---
 
